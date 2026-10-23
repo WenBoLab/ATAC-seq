@@ -1,0 +1,28 @@
+name: atacseq
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - pysam
+  - fastqc
+  - multiqc
+  - fastp
+  - bowtie2
+  - samtools
+  - bedtools
+  - picard
+  - macs3
+  - deeptools
+  - subread
+  - homer
+  - tobias
+  - r-base>=4.3
+  - bioconductor-deseq2
+  - bioconductor-chipseeker
+  - bioconductor-org.hs.eg.db
+  - bioconductor-org.mm.eg.db
+  - bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
+  - bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
+  - bioconductor-txdb.mmusculus.ucsc.mm10.knowngene
